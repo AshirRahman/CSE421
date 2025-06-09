@@ -1,0 +1,6 @@
+Edge_Router>en
+Edge_Router#conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+Edge_Router(config)#ip route 0.0.0.0 0.0.0.0 se0/0/0 1
+Edge_Router(config)#ip route 0.0.0.0 0.0.0.0 se0/0/1 5
+Edge_Router(config)#ipv6 route ::/0 2001:DB8:A:2::1 5
